@@ -7,8 +7,9 @@ body {
   background-color: #EBCDC8;
   font-family: koulen;
   letter-spacing: 5px;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
+  padding: 1rem;
 }
 
 img {
