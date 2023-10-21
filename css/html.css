@@ -36,4 +36,8 @@ img {
   .body {
     font-size: .5rem;
   }
+
+  .body a {
+    font-size: 1.5rem;
+  }
 }
