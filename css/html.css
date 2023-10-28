@@ -57,4 +57,17 @@ img {
   .body a {
     font-size: 1.5rem;
   }
+
+  .menu {
+    flex-direction: column;
+    padding-right: 0;
+  }
+
+  .contact {
+    padding-right: 0;
+  }
+
+  p {
+    font-size: 1rem;
+  }
 }
