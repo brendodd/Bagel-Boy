@@ -93,4 +93,13 @@ img {
   .prices {
     padding-top: 3rem;
   }
+
+  .order {
+    text-align: left;
+  }
+
+  .contact {
+    flex-direction: column;
+    text-align: left;
+  }
 }
