@@ -102,4 +102,12 @@ img {
     flex-direction: column;
     text-align: left;
   }
+
+  .footer {
+    text-align: left;
+  }
+
+  .title {
+    text-align: left;
+  }
 }
