@@ -43,18 +43,16 @@ img {
 
 .menu {
   display: flex;
-  justify-content: space-evenly;
-  padding-right: 4rem;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding: 4rem;
 }
 
 .special-bagels {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   padding-right: 4rem;
   padding-top: 2rem;
   padding-bottom: 4rem;
+  padding-left: 4rem;
 }
 
 .contact {
@@ -65,8 +63,10 @@ img {
 
 .bagels {
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
   text-align: left;
+  padding-right: 30rem;
 }
 
 .prices {
@@ -92,11 +92,13 @@ img {
   .menu {
     flex-direction: column;
     padding-right: 0;
+    padding-left: 0;
   }
 
   .special-bagels {
     flex-direction: column;
     padding-right: 0;
+    padding-left: 0;
   }
 
   .contact {
