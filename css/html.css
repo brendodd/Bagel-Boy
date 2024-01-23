@@ -66,7 +66,7 @@ img {
   justify-content: flex-start;
   flex-direction: column;
   text-align: left;
-  padding-right: 30rem;
+  padding-right: 15rem;
 }
 
 .prices {
@@ -128,5 +128,9 @@ img {
 
   .title {
     text-align: left;
+  }
+
+  .bagels {
+    padding-right: 0;
   }
 }
