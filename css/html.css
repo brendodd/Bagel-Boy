@@ -79,6 +79,10 @@ img {
   padding: 1rem 0;
 }
 
+.language {
+  padding-top: 1rem;
+}
+
 @media (max-width: 768px) {
   .body {
     font-size: .5rem;
@@ -132,5 +136,13 @@ img {
 
   .bagels {
     padding-right: 0;
+  }
+
+  .language {
+    text-align: left;
+  }
+
+  .img {
+    text-align: left;
   }
 }
