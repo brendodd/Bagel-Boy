@@ -20,15 +20,12 @@ body {
   width: 100vw;
   height: 100vh;
   padding: 1rem;
+  text-align: left;
 }
 
 img {
   height: 200px;
   width: 200px;
-}
-
-.body {
-  text-align: center;
 }
 
 .body a {
@@ -43,21 +40,20 @@ img {
 
 .menu {
   display: flex;
-  padding: 4rem;
+  padding-top: 4rem;
+
 }
 
 .special-bagels {
   display: flex;
   justify-content: flex-start;
   padding-right: 4rem;
-  padding-top: 2rem;
-  padding-bottom: 4rem;
-  padding-left: 4rem;
+  padding-top: 8rem;
 }
 
 .contact {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   padding-right: 4rem;
 }
 
@@ -81,6 +77,10 @@ img {
 
 .language {
   padding-top: 1rem;
+}
+
+.order {
+  padding-top: 4rem;
 }
 
 @media (max-width: 768px) {
@@ -117,21 +117,8 @@ img {
     padding-top: 3rem;
   }
 
-  .order {
-    text-align: left;
-  }
-
   .contact {
     flex-direction: column;
-    text-align: left;
-  }
-
-  .footer {
-    text-align: left;
-  }
-
-  .title {
-    text-align: left;
   }
 
   .bagels {
@@ -139,10 +126,6 @@ img {
   }
 
   .language {
-    text-align: left;
-  }
-
-  .img {
-    text-align: left;
+    padding-top: 4rem;
   }
 }
