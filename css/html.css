@@ -1,5 +1,5 @@
 * {
-  padding: 0;
+  padding: 0rem;
   box-sizing: border-box;
 }
 
@@ -24,8 +24,25 @@ body {
 }
 
 img {
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
+}
+
+.top-of-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title-logo {
+  display: flex;
+  justify-content: center;
+  padding-right: 20rem;
 }
 
 .body a {
