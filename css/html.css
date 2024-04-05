@@ -100,6 +100,10 @@ img {
   padding-top: 4rem;
 }
 
+.button {
+  
+}
+
 @media (max-width: 768px) {
   .body {
     font-size: .5rem;
